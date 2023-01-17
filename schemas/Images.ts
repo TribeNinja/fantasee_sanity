@@ -21,7 +21,7 @@ export default {
     {
       name: 'imageArray',
       type: 'array',
-      of: [{type: 'image', title: 'Image Array'}],
+      of: [{name: 'image', type: 'image', title: 'Image Array'}],
     },
   ],
 }
