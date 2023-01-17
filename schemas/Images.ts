@@ -18,5 +18,10 @@ export default {
       type: 'slug',
       title: 'Slug',
     },
+    {
+      name: 'imageArray',
+      type: 'array',
+      of: [{type: 'image', title: 'Image Array'}],
+    },
   ],
 }
