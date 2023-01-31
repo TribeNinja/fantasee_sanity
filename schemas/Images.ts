@@ -23,5 +23,8 @@ export default {
       type: 'array',
       of: [{name: 'image', type: 'image', title: 'Image Array'}],
     },
+    {name: 'age', type: 'string', title: 'Age'},
+    {name: 'sex', type: 'string', title: 'Sex'},
+    {name: 'link', type: 'string', title: 'Link'},
   ],
 }
