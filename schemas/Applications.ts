@@ -10,8 +10,8 @@ export default {
     },
     {
       name: 'imageApplication',
-      type: 'applicationArray',
-      of: [{name: 'image', type: 'applicationArray', title: 'imageApplication'}],
+      type: 'image',
+      of: [{name: 'imageApplication', type: 'image', title: 'imageApplication'}],
     },
     {
       name: 'category',
