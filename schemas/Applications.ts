@@ -9,12 +9,9 @@ export default {
       type: 'string',
     },
     {
-      name: 'image',
-      title: 'Image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      name: 'imageApplication',
+      type: 'applicationArray',
+      of: [{name: 'image', type: 'applicationArray', title: 'imageApplication'}],
     },
     {
       name: 'category',
