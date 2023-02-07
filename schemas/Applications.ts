@@ -1,7 +1,7 @@
 export default {
-  name: 'models',
+  name: 'homegallery',
   type: 'document',
-  title: 'Models',
+  title: 'Home Gallery',
   fields: [
     {
       name: 'name',
