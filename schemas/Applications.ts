@@ -1,22 +1,17 @@
 export default {
-  name: 'applications',
-  title: 'Applications',
+  name: 'models',
   type: 'document',
+  title: 'Models',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'name',
       type: 'string',
+      title: 'Name',
     },
     {
-      name: 'imageApplication',
+      name: 'image',
       type: 'image',
-      of: [{name: 'imageApplication', type: 'image', title: 'imageApplication'}],
-    },
-    {
-      name: 'category',
-      title: 'Category',
-      type: 'string',
+      title: 'Image',
     },
   ],
 }
